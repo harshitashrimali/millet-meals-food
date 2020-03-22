@@ -1,0 +1,129 @@
+.ftco-footer {
+    font-size: 14px;
+    background: #141313;
+    padding: 3em ;
+ }
+    .ftco-footer .ftco-footer-logo {
+        text-transform: uppercase;
+        letter-spacing: .1em; }
+      .ftco-footer .ftco-footer-widget h2 {
+        font-weight: normal;
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 700; 
+      }
+      .nounderline
+      {text-decoration: none !important; }
+      .list-unstyle{list-style: none;  float: right;}
+     .ftco-footer p {
+        color: rgba(255, 255, 255, 0.7); }
+      .ftco-footer a {
+        color: #fff; }
+      .ftco-footer .ftco-heading-2 {
+        font-size: 17px;
+        font-weight: 700;
+        color: #000000; }
+        .ftco-footer .ftco-heading-2  p {
+          width: 80%;
+          
+        }
+      .ftco-footer .categories li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .ftco-footer .categories li a span {
+          color: rgba(255, 255, 255, 0.5) !important;
+         }
+      .ftco-footer .subscribe-form .form-group {
+        position: relative;
+        margin-bottom: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0; }
+        .ftco-footer .subscribe-form .form-group input {
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          -ms-border-radius: 2px;
+          border-radius: 2px;
+          width: 100%;
+          background: rgba(255, 255, 255, 0.1) !important;
+          border: none;
+          color: #ffffff !important;
+          font-size: 16px; }
+          .ftco-footer .subscribe-form .form-group input::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: rgba(255, 255, 255, 0.7) !important; }
+          .ftco-footer .subscribe-form .form-group input::-moz-placeholder {
+            /* Firefox 19+ */
+            color: rgba(255, 255, 255, 0.7) !important; }
+          .ftco-footer .subscribe-form .form-group input:-ms-input-placeholder {
+            /* IE 0+ */
+            color: rgba(255, 255, 255, 0.7) !important; }
+          .ftco-footer .subscribe-form .form-group input:-moz-placeholder {
+            /* Firefox 18- */
+            color: rgba(255, 255, 255, 0.7) !important; }
+        .ftco-footer .subscribe-form .form-group .submit {
+          color: #fff !important;
+          font-size: 16px;
+          background: #888787 !important;
+          border: none !important;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          -ms-border-radius: 2px;
+          border-radius: 2px; }
+          .ftco-footer .subscribe-form .form-group .submit:hover {
+            cursor: pointer; }
+      .ftco-footer .subscribe-form .icon {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        color: rgba(255, 255, 255, 0.8); }
+   
+    .ftco-footer-social li {
+      list-style: none;
+      margin: 0 10px 0 0;
+      display: inline-block; }
+      .ftco-footer-social li a {
+        height: 40px;
+        width: 40px;
+        display: block;
+        float: left;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 50%;
+        position: relative; }
+        .ftco-footer-social li a span {
+          position: absolute;
+          font-size: 20px;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+        .ftco-footer-social li a:hover {
+          color: #fff; }
+    
+    .footer-small-nav > li {
+      display: inline-block; }
+      .footer-small-nav > li a {
+        margin: 0 10px 10px 0; }
+        .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
+          color: #ffffff; }
+    
+    .media .ftco-icon {
+      width: 100px; }
+      .media .ftco-icon span {
+        color: #f5f5f5; } 
+        .fa {
+           font-size: 25px;
+           text-align: center;
+            text-decoration: none;
+            margin: 8px 10px;
+            box-shadow: 3px black;
+          }
+          
+         
+          
+         

@@ -1,0 +1,477 @@
+
+      .home-page
+      {
+        padding: 0vh;
+       background-color: peru;
+      }
+      .carousel-item  img
+      {
+        height: 80% ;
+      }
+   .about-contain
+   {
+    padding: 8vh 1vh 3vh;
+     width:100%;
+  }
+     .site-section .site-sub-title {
+      padding-top: 3vh;
+      font-size: 23px;
+     text-transform: uppercase;
+      letter-spacing: 5px;
+      color: #8f8f8f;
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+    }  
+    .sticky +  section {
+      padding-top: 60px;
+    }
+    .display-4
+    {
+      padding-top: 12vh;
+      font-family: "Raleway", sans-serif;
+
+    }  
+    .site-section .site-primary-title {
+      letter-spacing: 6px;
+      font-size:45px;
+      font-weight: 300;
+      margin-top: 0;
+      margin-bottom: 14px;
+    }
+    @media screen and (max-width: 768px) {
+      .display-4 {
+        font-size: 37px;
+      }
+    }
+    .btn {
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+     font-size: 16px;
+      font-family: 'Montserrat', sans-serif;
+     
+    }
+    .btn.btn-lg {
+      font-size: 16px !important;
+      padding: 10px 20px !important;
+     
+    }
+    .btn.btn-secondary {
+     
+      background: none;
+      border: 2px solid rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
+    }
+    
+    .btn.btn-secondary:hover {
+    border: 2px solid #ccc;
+    background: none;
+    border-radius: 0px;
+    color: #999999;
+      
+    }
+    #section-about .img {
+      padding-top:2vh;
+      position: relative;
+      right: 0;
+    
+    }
+    
+    @media screen and (max-width: 768px) {
+      #section-about .img {
+        position: relative;
+        right: inherit;
+      }
+      #section-about .img img {
+        max-width: 100%;
+      }
+    }
+  .text{
+  padding: 2vh 0vh 5vh;
+  font-size: 15px;
+  color: #a8a8a8;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  
+}
+.site-tab-nav {
+  padding: 0;
+  margin: 0;
+  display: inline-block !important;
+}
+
+@media screen and (max-width: 576px) {
+  .site-tab-nav {
+    display: block !important;
+    margin-bottom: 10px;
+    width: 100% !important;
+  }
+}
+
+.site-tab-nav li {
+  padding: 0;
+  margin: 0 5px;
+  display: inline-block !important;
+}
+
+@media screen and (max-width: 576px) {
+  .site-tab-nav li {
+    display: block !important;
+    margin-bottom: 10px;
+    width: 100% !important;
+  }
+}
+
+.site-tab-nav li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .2em;
+  color: #ccc;
+  border: 2px solid #ccc;
+  border-radius: 0 !important;
+}
+
+.site-tab-nav li a.active {
+  background: none !important;
+  color: black !important;
+  border: 2px solid #000;
+}
+.text-menu
+{
+text-align: center;
+    height: 2vh;
+     font-size: 15px;
+     color: #a8a8a8;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu-item {
+  margin-bottom: 30px;
+
+}
+
+ .menu-item img {
+  width: 100px;
+  border-radius: 50%;
+}
+.media-body
+{
+  width: 4vh;
+  color: #8f8f8f;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+.services .service-item {
+  margin-bottom: 30px;
+  margin-top: 30px;
+ 
+}
+.nounderline
+{
+  text-decoration: none !important;
+}
+.rounded-circle
+{
+  width:60%;
+  height: 60%;
+  margin-left: 17%;
+  box-shadow: 0px 0px 0px 15px rgb(240, 240, 240);
+}
+.Menu-name
+{
+  padding-left: 10vh;
+  font-size: 23px;
+  padding-top:10% ;
+  color: #8f8f8f;
+}
+.img-fluid-about
+{
+  width: 60vh;
+  height: 80vh;
+}
+.img-fluid
+{
+  width:45vh;
+  height: 40vh;
+}
+.cd-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cd-section--bg-fixed {
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+.reservation {
+  position: relative;
+  font-family: "Lora", Georgia, serif; }
+  .reservation .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background: #303030;
+    opacity: .8; }
+  .reservation .intro-heading h2 {
+    margin-top: 5%;
+    font-size: 10vh;
+    color: #fff; }
+  .reservation .intro-heading p {
+    font-size: 3vh;
+    color: rgba(255, 255, 255, 0.8); }
+
+    
+.reservation-img {
+  margin-top: 5%;
+ padding: 5px 0px 3vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative; }
+
+  .form {
+    margin-top: 1%;
+    font-weight: normal;
+    color: white;
+  }
+  .label {
+    font-weight: normal;
+    color: white; }
+  
+  .form .form-control {
+    height: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255, 0.03);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7); }
+    .form .form-control:active, .form .form-control:focus {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: rgb(82, 82, 82); }
+    .form .form-control::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: rgba(255, 255, 255, 0.7); }
+    .form .form-control::-moz-placeholder {
+      /* Firefox 19+ */
+      color: rgba(255, 255, 255, 0.7); }
+    .form .form-control:-ms-input-placeholder {
+      /* IE 10+ */
+      color: rgba(255, 255, 255, 0.7); }
+    .form .form-control:-moz-placeholder {
+      /* Firefox 18- */
+      color: rgba(110, 110, 110, 0.7); }
+  
+  .form .form-group {
+    font-size: 15px;
+    margin-bottom: 15px; }
+    .form .form-group .form-field {
+      position: relative;
+      padding: 0;
+      margin: 0; }
+     
+  
+  .form textarea.form-control {
+    height: 25vh;
+    resize: vertical; }
+  
+  .form .btn-block {
+    padding: 10px !important; }
+  
+  .reservation-page .intro-heading h2 {
+    color: #404044; }
+  
+  .reservation-page .intro-heading p {
+    color: #7d7d7d; }
+  
+  .reservation-page .form-control {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #b0b0b0; }
+    .reservation-page .form-control::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #b0b0b0; }
+    .reservation-page .form-control::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #b0b0b0; }
+    .reservation-page .form-control:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #b0b0b0; }
+    .reservation-page .form-control:-moz-placeholder {
+      /* Firefox 18- */
+      color: #b0b0b0; }
+  
+  .reservation-page label {
+  color: #7d7d7d; }
+    .btn-primary {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      border-radius: 30px;
+      background: #74CEF5;
+      color: rgb(255, 255, 255);
+      border: 1px solid rgb(84, 196, 245); }
+      .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+        background: #fdfdfd !important;
+        border-color:rgb(84, 196, 245) !important;
+        color: #74CEF5; }
+section.Subscription {
+          padding: 5px 0px 5vh;
+        
+         width: 100%;
+         height: 90%;
+         } 
+.Subscription  .heading  h2 {
+    font-family:  "Raleway", sans-serif; 
+    padding: 2vh;
+    margin-bottom: 2px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #121212;
+    
+          } 
+    @media screen and (max-width: 600px) {
+    .Subscription  .heading  h2 {
+      font-size: 35px;
+              }
+            }
+    @media screen and (max-width: 200px) {
+    .Subscription .heading  h2 {
+      font-size: 10px;
+      height: 70%;
+            }
+          }
+          .Subscription-item
+          {
+            padding: 1vh;
+            height: 70vh;
+          
+          }
+          #blur{
+            color: transparent;
+            text-shadow: 0 0 8px #000;
+          }
+          .Subscription-box
+          {
+            margin-left: 40vh;
+            padding: 3vh  ;
+          width: 55vh;
+          height: 65vh;
+         background: rgb(255, 254, 254);
+border: 1px solid rgb(235, 245, 252) ;
+box-shadow: 0px 0px 0px 10px #0000002B;
+        
+          }
+          @media screen and (max-width: 1040px) {
+            .Subscription-box {
+              margin-left: 30vh;
+              padding: 6vh;
+              width: 50vh;
+              background: rgb(255, 254, 254);
+border: 1px solid rgb(235, 245, 252) ;
+box-shadow: 0px 0px 0px 10px #0000002B;
+                      }
+                    }
+ @media screen and (max-width: 990px) {
+.Subscription-box {
+margin-left: 20vh;
+padding: 2vh;
+width: 50vh;
+ background: rgb(255, 254, 254);
+border: 1px solid rgb(235, 245, 252) ;
+box-shadow: 0px 0px 0px 10px #0000002B;
+  }
+   }
+ @media screen and (max-width: 790px) {
+.Subscription-box {margin-left: 10vh;
+padding: 5vh;
+ width: 50vh;
+background: rgb(255, 254, 254);
+border: 1px solid rgb(235, 245, 252) ;
+box-shadow: 0px 0px 0px 10px #0000002B;
+  }
+  }
+ @media screen and (max-width: 590px) {
+.Subscription-box {margin-left: 2vh;
+padding: 4vh;
+width: 45vh;
+background: rgb(255, 254, 254);
+border: 1px solid rgb(235, 245, 252) ;
+box-shadow: 0px 0px 0px 10px #0000002B;
+   }
+  }
+@media screen and (max-width: 490px) {
+.Subscription-box {
+margin-left: 2vh;
+width: 40vh;
+height: 68vh;
+background: rgb(255, 254, 254);
+border: 1px solid rgb(235, 245, 252) ;
+box-shadow: 0px 0px 0px 10px #0000002B;
+   }
+  }
+@media screen and (max-width: 390px) {
+.Subscription-box {
+margin-left: 2vh;
+width: 30vh;
+height: 90vh;
+background: rgb(255, 254, 254);
+border: 1px solid rgb(235, 245, 252) ;
+box-shadow: 0px 0px 0px 10px #0000002B;
+
+} }
+
+.Subscription-item h2 {
+  display: block;
+   font-family: 'Spectral', serif;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #d9dde5;
+    color: #121212;
+   
+  }
+  .hello{
+   text-align: center;
+   justify-content: center;
+  }
+
+
+  .Subscription-item .price {
+    display: block;
+    font-size: 30px;
+    color: #888888;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+    padding: 15px 15vh;
+    position: absolute;
+  
+  }
+  
+   .Subscription-item .text-content {
+   margin-top:7vh;
+    padding: 5px 10px 10px 20px;
+    
+  }
+  
+  .Subscription-item h4 {
+    margin-top: 4px;
+    font-family: 'Spectral', serif;
+    font-size: 18px;
+    color: #121212;
+  } 
+  .btn-box
+  {
+    opacity: .9;
+  }
+ 

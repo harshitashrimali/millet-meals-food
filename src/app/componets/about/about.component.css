@@ -1,0 +1,90 @@
+.about {
+                padding: 5em 0;
+                position: relative;
+               }
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 3em 0; } }
+.about-desc {
+             padding: 2vh;
+   }
+    @media screen and (max-width: 768px) {
+              .about-desc {
+                padding-right: 0; } }
+      .about-img-2{
+      
+         width: 65vh;
+         height: 70vh;
+          margin-bottom: 30px; 
+          background: indigo;
+ }
+ @media screen and (max-width: 850px) {
+    .about-img-2 {
+        width: 56vh;
+       } }
+       @media screen and (max-width: 550px) {
+        .about-img-2 {
+          align-items: center;
+            width: 40vh;
+            height: 70vh;
+           } }
+             .intro-heading {
+                margin-bottom: 3em;
+                position: relative; }
+                .intro-heading h4 {
+                  font-size: 20px;
+                  font-weight: 400;
+                  position: relative;
+                  font-style: italic;
+                color: #969696; }
+
+                .intro-heading span {
+                 text-align: center;
+                  display: block;
+                  font-size: 45px;
+                  font-style: italic;
+                  margin-bottom: 10px;
+                  font-family: "Lora", Georgia, serif;
+                  color: #000000;
+                  font-weight: 400; }
+.about-text
+{
+     display: block;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-family: "Lora", Georgia, serif;
+    color: #969696;
+     font-weight: 200;
+}
+.about-chef
+{
+  font-family: "Lora", Georgia, serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+}    
+.chef-wrap {
+    margin-bottom: 30px; }
+    .chef-wrap .desc h3 {
+      font-size: 20px;
+      margin-bottom: 15px; }
+.chef-img {
+    width: 31vh;
+    height: 400px;
+    margin-bottom: 30px; 
+}    
+
+@media screen and (max-width: 850px) {
+  .chef-img {
+      width: 50vh;
+     } }
+     @media screen and (max-width: 800px) {
+      .chef-img {
+          width: 23vh;
+         } }
+         @media screen and (max-width: 750px) {
+          .chef-img {
+              width: 40vh;
+             } }

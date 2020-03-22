@@ -1,0 +1,123 @@
+.align-items-end {
+    -webkit-box-align: end !important;
+     -ms-flex-align: end !important;
+    align-items: flex-end !important; }
+ .no-gutters {
+        margin-right: 0;
+        margin-left: 0; }   
+
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px; }
+            .ftco-section {
+                padding: 7em 0;
+                position: relative; }
+                .ftco-no-pt {
+                    padding-top: 0; }
+ .order-md-last {
+                        -webkit-box-ordinal-group: 14;
+                        -ms-flex-order: 13;
+                        order: 13; }
+                     .mb-md-5
+                        {
+                            font-size:5vh;
+                        } 
+                       .Address
+                        {
+                            font-size: 15px;
+                            color: gray;
+                            width: 40% ;
+                            height: 15%;
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                          
+                        }
+    .font-weight-bold {
+    font-weight: 700 !important; }
+  .hours{
+    font-size:4vh;
+    color: rgb(0, 0, 0);
+    width: 60% ;
+    height: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .week
+   {
+       margin-top:8vh;
+      font-size:3vh;
+      color: rgb(94, 94, 94);
+      width: 80% ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .week-on{
+  font-size:3vh;
+    color: rgb(94, 94, 94);
+    width: 80% ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .Outlet
+   {
+    font-size:3vh;
+    color: rgb(12, 12, 12);
+    width: 60% ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .time{
+   margin-left: 5px;
+      font-size:2vh;
+      color: rgb(78, 78, 78);
+      width: 60% ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   } 
+   .align-items-stretch {
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important; }
+     .map-container{
+     overflow:hidden;
+   } 
+   iframe{
+      height: 80vh ;
+      width: 70vh;
+      padding: 0vh 0vh 0vh 5vh;
+     } 
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
